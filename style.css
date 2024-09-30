@@ -42,7 +42,7 @@ nav a {
     text-decoration: none;
 }
 
-main {
+main.flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -53,19 +53,21 @@ main {
 article {
     padding: 25px;
     background: #fff;
-    width: calc(25% - (90px/4));
     border-radius: 25px;
+}
+.flex article {
+    width: calc(25% - (90px/4));
     text-align: center;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
     transition: 1s;
 }
-article:hover {
+.flex article:hover {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, .7);
 }
-article img {
+.flex article img {
     width: 100px;
 }
-article ul {
+.flex article ul {
     list-style: none;
     padding: 0;
     text-align: left;
