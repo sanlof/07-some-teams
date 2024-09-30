@@ -10,5 +10,9 @@
 
 <body>
     <header>
-        <h1>Damfotboll</h1>
+        <h1>Fußball</h1>
+        <nav>
+            <a href="/index.php">Index</a>
+            <a href="/about.php">About</a>
+        </nav>
     </header>
