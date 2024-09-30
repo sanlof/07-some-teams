@@ -10,7 +10,7 @@ $teams = [
         'group' => 'D'
     ],
     'Chelsea' => [
-        'league' => 'Women\’s Super League (England)',
+        'league' => 'Women\'s Super League (England)',
         'uefa-coefficient-ranking' => 6,
         'city' => 'London',
         'url' => 'https://www.chelseafc.com/',
