@@ -1,3 +1,4 @@
+<?php require __DIR__ . '/header.php'; ?>
 <?php require __DIR__ . '/data.php'; ?>
 
 <main>
@@ -20,3 +21,5 @@
         </article>
     <?php endforeach; ?>
 </main>
+
+<?php require __DIR__ . '/footer.php'; ?>
