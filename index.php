@@ -1,7 +1,7 @@
 <?php require __DIR__ . '/header.php'; ?>
 <?php require __DIR__ . '/data.php'; ?>
 
-<main>
+<main class="flex">
     <?php foreach ($teams as $team => $teamData) : ?>
         <article>
             <h2><?= $team ?></h2>
