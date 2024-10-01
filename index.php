@@ -4,7 +4,7 @@
 <main class="flex">
     <?php foreach ($teams as $team => $teamData) : ?>
         <article>
-            <h2><?= $team ?></h2>
+            <h2><?= $team; ?></h2>
             <p>
                 <a href="<?= $teamData['url']; ?>">
                     <img
@@ -16,7 +16,7 @@
                 <li>Liga: <?= $teamData['league']; ?></li>
                 <li>Rankning (UEFA): <?= $teamData['uefa-coefficient-ranking']; ?></li>
                 <li>Stad: <?= $teamData['city']; ?></li>
-                <li>Grupp: <?= $teamData['group'] ?></li>
+                <li>Grupp: <?= $teamData['group']; ?></li>
             </ul>
         </article>
     <?php endforeach; ?>
